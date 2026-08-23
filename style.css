@@ -9,16 +9,17 @@
     box-sizing: border-box;
 }
 
-/*Background color of the entire page */
+/* Background color of the entire page */
 body {
-        background-image: linear-gradient(310deg, rgba(255,0,0,0), rgb(17, 0, 255));
-  }
+    background-image: linear-gradient(310deg, rgba(255, 0, 0, 0), rgb(17, 0, 255));
+}
 
 header {
     padding: 20px;
     color: rgb(211, 211, 247);
 }
-/*Aligning, and features of the title */
+
+/* Aligning and features of the title */
 #name {
     margin-left: 90px;
     display: inline-block;
@@ -26,28 +27,29 @@ header {
     text-shadow: 5px 5px 5px black;
 }
 
-/*Right navbar links and their features. */
+/* Right navbar links and their features */
 #navbar {
     padding-top: 15px;
     margin-right: 4px;
     float: right;
-    font-size: 20px; 
+    font-size: 20px;
 }
 
-/*Just as the id implies, the left navbar. */
-#left_navbar{
+/* Just as the id implies, the left navbar */
+#left_navbar {
     padding-top: 15px;
     margin-left: 4px;
     float: left;
-    font-size: 30px; 
+    font-size: 30px;
 }
 
-/* Lines 45 to 61 are all specifically for the bio and it's container. */
+/* Bio and its container */
 body h2 {
     margin-top: 20px;
 }
 
-body h2, p{
+body h2,
+p {
     width: 78.4%;
     display: inline-block;
     margin-left: 20px;
@@ -60,41 +62,52 @@ p {
     line-height: 2;
     border: solid black;
 }
-p2 {
+
+/* Professional experience content */
+.experience-copy {
     font-size: 25px;
     margin-top: 20px;
     line-height: 2;
     color: black;
 }
+
 h3 {
     margin-left: 585px;
     font-size: 48px;
 }
+
 work {
     margin-left: 585px;
     font-size: 48px;
 }
-career {
+
+.experience-heading {
     margin-left: 585px;
     font-size: 30px;
 }
-operations {
-    margin-left: 585px;
-    font-size: 30px;
-}
-/*Features all for the fieldset/work container from lines 64 to 97.*/
-#group, #refraction, #first_repo, #dayPlanner {
+
+/* Features for the fieldset/work container */
+#group,
+#refraction,
+#first_repo,
+#dayPlanner {
     width: 200px;
     height: 50%;
     opacity: .5;
 }
 
-#group, #refraction, #first_repo, #dayPlanner {
+#group,
+#refraction,
+#first_repo,
+#dayPlanner {
     width: 200px;
     height: 200px;
 }
 
-#group:hover, #refraction:hover, #first_repo:hover, #dayPlanner:hover{
+#group:hover,
+#refraction:hover,
+#first_repo:hover,
+#dayPlanner:hover {
     background: linear-gradient(310deg, rgba(226, 192, 192, 0), rgb(57, 57, 65));
     opacity: 1;
     position: relative;
@@ -123,7 +136,7 @@ fieldset {
     margin-top: 40px;
 }
 
-/*Below from lines 103 to 108 is for the contact info.*/
+/* Contact information */
 ul {
     list-style-type: none;
     max-width: 20%;
@@ -137,7 +150,7 @@ ul {
     text-align: left;
 }
 
-/*The below is for the figure tag in html. */
+/* Figure / personal photo */
 #Personal_Photo {
     display: flex;
     flex-wrap: wrap;
@@ -149,8 +162,9 @@ ul {
     height: 20%;
 }
 
-/*Mixture of anchor tags and the footer. */
-footer h2, a{
+/* Anchor tags and footer */
+footer h2,
+a {
     color: black;
 }
 
@@ -158,8 +172,7 @@ footer h2, a{
     text-align: center;
     position: fixed;
     padding: 10px 10px 0px 10px;
-    bottom: 30px; 
-    width: 100%;   
-    height: 40px; 
-     
+    bottom: 30px;
+    width: 100%;
+    height: 40px;
 }
