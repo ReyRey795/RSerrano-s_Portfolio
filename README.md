@@ -117,20 +117,21 @@ The project intentionally avoids unnecessary frameworks so the underlying HTML, 
 
 ### Development
 
-* [x] Created `portfolio-redesign` development branch
-* [x] Updated portfolio page identity
-* [x] Improved semantic HTML structure
-* [x] Improved HTML formatting and readability
-* [x] Replaced non-standard custom HTML elements with semantic HTML
-* [ ] Build Home / Dossier structure
-* [ ] Build dossier interaction
-* [ ] Build responsive navigation
-* [ ] Build Journey page
-* [ ] Build Résumé page
-* [ ] Build Cover Letter page
-* [ ] Build Career Goals page
-* [ ] Add responsive styling
-* [ ] Add final interactions and transitions
+- [x] Created `portfolio-redesign` development branch
+- [x] Established five-page portfolio file architecture
+- [x] Updated portfolio page identity
+- [x] Improved semantic HTML structure
+- [x] Improved HTML formatting and readability
+- [x] Replaced non-standard custom HTML elements with semantic HTML
+- [ ] Build Home / Dossier structure
+- [ ] Build dossier interaction
+- [ ] Build responsive navigation
+- [ ] Build Journey page
+- [ ] Build Résumé page
+- [ ] Build Cover Letter page
+- [ ] Build Career Goals page
+- [ ] Add responsive styling
+- [ ] Add final interactions and transitions
 
 ### Testing
 
